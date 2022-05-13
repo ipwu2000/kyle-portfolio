@@ -57,14 +57,9 @@ figure {
 
 /* Large Tablets */
 @media screen and (max-width: 1000px) {
- 
   .statement {
     padding: 50px 15px 0 15px;
-    width: 47%;
-    font-size: larger;
-    border: 1px solid red;
   }
-  
 }
 
 /* Medium/small Tablets */
@@ -76,7 +71,7 @@ figure {
   }
   
   .statement {
-    padding: 10px 10px;
+    padding: 10px;
   }
 
   .statement {
