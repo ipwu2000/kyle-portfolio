@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyle Wu's Art Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/styles-home.css">
+    <link rel="stylesheet" href="CSS/lightbox.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-title">
+                <h1>Kyle Wu's Art Portfolio</h1>
+            </div>
+                    
+            <div class="social-links">
+              <ul class="list-inline">
+                  <li><a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook Logo"></a></li>
+                  <li><a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter Logo"></a></li>
+                  <li><a href="https://www.instagram.com"><img src="images/instagram.png" alt="Instagram Logo"></a></li>
+              </ul>
+          </div>
+        </header>
+        <nav>
+            <div class="page-links">
+              <ul>
+                <li class="active"><a id="home" href="index.html">home</a></li>
+                <li><a id="gallery" href="gallery.html">gallery</a></li>
+                <li><a id="news-events" href="news-events.html">news & events</a></li>
+                <li><a id="about" href="about.html">about</a></li>
+                <li><a id="contact" href="contact.html">contact</a></li>
+              </ul>
+            </div>
+        </nav>
+        <main>
+            <article>
+                <div class="statement">
+                   <!-- Cycle Slideshow -->
+                   <div class="slideshow">
+                    <div class="cycle-slideshow"
+                      data-cycle-fx="fade"
+                      data-cycle-timeout="6000"
+                      data-cycle-slides="> div"
+                    > 
+                      <div>
+                        <h3>“A true artist is not one who is inspired, but one who inspires others.” </h3>
+                        <br>
+                        <caption>- Salvador Dali</caption>
+                      </div>
+                      <div>
+                        <h3>“Art is never finished, only abandoned.”</h3>
+                        <br>
+                        <caption>- Leonardo da Vinci</caption>
+                      </div>
+                      <div>
+                        <h3>“I saw the angel in the marble and carved until I set him free.”</h3>
+                        <br>
+                        <caption>- Michelangelo</caption>
+                      </div>
+                      <div>
+                        <h3>“I don’t paint things. I only paint the difference between things.”</h3>
+                        <br>
+                        <caption>- Henri Matisse</caption>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="side">
+                    <!-- Cycle Slideshow -->
+                    <div class="slideshow">
+                      <div class="cycle-slideshow">
+                        <img src="images/hands.jpg" alt="Hand Collage">
+                        <img src="images/neurodoodle.jpg" alt="Neuro Doodle">
+                        <img src="images/park.png" alt="Park">
+                        <img src="images/chess.png" alt="Chess">
+                        <img src="images/xiao.jpg" alt="Cyberpunk xiao">
+                        <img src="images/bust.jpg" alt="Bust">
+                      </div>
+                    </div>
+                </div>
+            </article>
+            <section>
+              <div class="digital-art">
+                <figure>
+                  <a href="gallery.html#digital-art"><img src="images/hands-thumb.jpg" alt="Hand Collage"></a>
+                  <figcaption>Digital Art</figcaption>
+                </figure>
+              </div>
+              <div class="drawings">
+                <figure>
+                  <a href="gallery.html#drawings"><img src="images/bust-thumb.jpg" alt="Bust"></a>
+                  <figcaption>Drawings</figcaption>
+                </figure>
+              </div>
+              <div class="sketches">
+                <figure>
+                  <a href="gallery.html#sketches"><img src="images/xiao-thumb.jpg" alt="Cyberpunk xiao"></a>
+                  <figcaption>Sketches</figcaption>
+                </figure>
+              </div>
+            </section>
+        </main>
+        <footer>
+            Copyright 2022
+        </footer>
+    </div>
+    <!-- Cycle Slideshow -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://malsup.github.io/jquery.cycle2.js"></script>
+  </body>
+</html>
