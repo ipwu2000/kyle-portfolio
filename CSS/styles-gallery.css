@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  text-align: center;
+  margin: 5px;
+  margin-top: 20px;
+  padding: 2px 5px;
+  text-decoration:2px underline red;
+}
+
+section {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: auto;
+}
+
+section img {
+  width: 100%;
+}
+
+section img:hover {
+  border: 2px solid red;
+}
+
+div.image1,
+div.image2,
+div.image3,
+div.image4 {
+  width: 24%;
+}
+
+/* Large Tablets */
+@media screen and (max-width: 1000px) {
+
+}
+
+/* Medium/small Tablets */
+@media screen and (max-width: 800px) {
+
+}
+
+/* Smartphones */
+@media screen and (max-width: 500px) {
+
+}

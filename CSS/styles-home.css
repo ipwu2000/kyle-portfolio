@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  clear: both;
+  display: flex;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  justify-content: space-around;
+  margin: 15px 10px;
+}
+
+.statement {
+  padding: 130px 15px 0 15px;
+  width: 47%;
+  font-size: larger;
+  border: 1px solid red;
+}
+
+.side {
+  width: 50%;
+}
+
+.side img {
+  width: 100%;
+  height: 100%;
+  /* take the aspect ratio of first image and 
+     fit the rest images into the same space */
+  object-fit: cover;
+}
+
+section {
+  display: flex;
+  width: 93%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+section img {
+  width: 100%;
+}
+
+section img:hover {
+  border: 2px solid red;
+}
+
+div.digital-art, div.drawings, div.sketches {
+  width: 30%;
+}
+
+figure {
+  text-align: center;
+  background-color: rgb(248, 245, 244);
+  margin: 10px;
+  padding-bottom: 5px;
+}
+
+/* Large Tablets */
+@media screen and (max-width: 1000px) {
+ 
+  .statement {
+    padding: 50px 15px 0 15px;
+    width: 47%;
+    font-size: larger;
+    border: 1px solid red;
+  }
+  
+}
+
+/* Medium/small Tablets */
+@media screen and (max-width: 800px) {
+  article {
+    clear: both;
+    display: block;
+    padding-top: 0;
+  }
+  
+  .statement {
+    padding: 10px 10px;
+  }
+
+  .statement {
+    width: 90%;
+    margin: 20px auto;
+  }
+
+  .side {
+    width: 90%;
+    margin: auto;
+  }
+
+  div.digital-art, div.drawings, div.sketches {
+    width: 100%;
+    margin: 5px;
+  }
+}
+
+/* Smartphones */
+@media screen and (max-width: 500px) {
+
+}
+
+

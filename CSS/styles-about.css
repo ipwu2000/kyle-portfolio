@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+  padding: 8px;
+  margin-bottom: 8px;
+  line-height: 1em;
+  border: 1px solid red;
+}
+h4 {
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+p {
+  padding-left: 15px;
+}
+
+main {
+  display: inline-flex;
+  float: left;
+  width: 60%;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+aside {
+  display: flex;
+  margin: 20px auto;
+}
+
+aside img{
+  width:80%;
+  margin: auto;
+}
+
+/* Large Tablets */
+@media screen and (max-width: 1000px) {
+  
+}
+
+/* Medium/small Tablets */
+@media screen and (max-width: 800px) {
+  main {
+    width: 98%;
+    margin: 5px;
+  }
+
+  aside {
+    width: 50%;
+    margin: 10px auto;
+  }
+}
+
+/* Smartphones */
+@media screen and (max-width: 500px) {
+ 
+}
+
